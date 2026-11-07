@@ -1,0 +1,47 @@
+--- C. LANGKAH PENGUJIAN MANUAL (USER FLOW) ---
+
+1. Layar Login (Autentikasi):
+
+	- Masukkan Username : admin
+
+	- Masukkan Password : admin
+
+	- Tekan tombol "Masuk" untuk menuju Dashboard Tabungan.
+
+2. Validasi Error Form Login:
+
+	- Kosongkan Username dan Password, lalu tekan "Masuk".
+
+	- Verifikasi munculnya SnackBar peringatan: "Username dan Password wajib diisi!".
+
+3. Menambah Transaksi Setoran:
+
+	- Dari Dashboard, tekan tombol "+ Tambah".
+
+	- Pilih jenis transaksi "Setoran".
+
+	- Isi Keterangan : Uang Saku Bulanan
+
+	- Isi Nominal    : 5000
+
+	- Sembunyikan keyboard, lalu tekan "Simpan Transaksi".
+
+	- Verifikasi aplikasi kembali ke Dashboard dan riwayat transaksi bertambah.
+
+4. Navigasi Cetak Laporan PDF:
+
+	- Dari Dashboard, tekan tombol "Cetak Laporan".
+
+	- Halaman preview dokumen PDF laporan keuangan akan terbuka.
+
+	- Tekan ikon Printer di pojok kiri bawah toolbar PDF viewer.
+
+	- Verifikasi modal sistem Android bertuliskan "Simpan sebagai PDF" berhasil terbuka.
+
+5. Logout Pengguna:
+
+	- Kembali ke halaman Dashboard.
+
+	- Tekan ikon "Logout" di pojok kanan atas AppBar.
+
+	- Verifikasi pengguna berhasil keluar dan kembali ke halaman Login utama.

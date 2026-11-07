@@ -1,0 +1,24 @@
+appId: com.example.tabunganku_harian
+---
+# Klik tombol tambah dari dashboard
+- tapOn: "Tambah"
+
+# Pilih Jenis Transaksi Setoran
+- tapOn: "Setoran"
+
+# Masukkan Keterangan
+- tapOn: "Keterangan"
+- inputText: "Uang Saku Bulanan"
+
+# Masukkan Nominal
+- tapOn: "Nominal"
+- inputText: "5000"
+
+# Sembunyikan keyboard
+- hideKeyboard
+
+# Klik tombol Simpan
+- tapOn: "Simpan Transaksi"
+
+# Verifikasi berhasil kembali ke Dashboard
+- assertVisible: "Riwayat Transaksi"

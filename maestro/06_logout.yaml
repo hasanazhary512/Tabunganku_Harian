@@ -1,0 +1,8 @@
+appId: com.example.tabunganku_harian
+---
+# Klik ikon logout di pojok kanan atas appbar (ikon keluar)
+- tapOn:
+    point: "92%,6%"
+
+# Verifikasi berhasil kembali ke halaman Login
+- assertVisible: "Masuk"

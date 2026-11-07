@@ -1,0 +1,13 @@
+appId: com.example.tabunganku_harian
+---
+# Klik tombol tambah dari dashboard
+- tapOn: "Tambah"
+
+# Pastikan dialog/halaman tambah terbuka
+- assertVisible: "Tambah Transaksi"
+
+# Langsung klik simpan tanpa isi form
+- tapOn: "Simpan Transaksi"
+
+# Cek apakah pesan error/snackbar muncul
+- assertVisible: "Isi keterangan dan nominal dengan benar!"

@@ -1,0 +1,4 @@
+appId: com.example.tabunganku_harian
+---
+- launchApp
+- assertVisible: "Masuk"

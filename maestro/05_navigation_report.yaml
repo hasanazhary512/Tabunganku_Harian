@@ -1,0 +1,14 @@
+appId: com.example.tabunganku_harian
+---
+# Klik tombol Cetak Laporan dari menu
+- tapOn: "Cetak Laporan"
+
+# Verifikasi judul halaman preview laporan muncul
+- assertVisible: "Cetak Laporan"
+
+# Klik ikon printer di pojok kiri bawah toolbar PDF viewer
+- tapOn:
+    point: "9%,92%"
+
+# Verifikasi halaman Simpan sebagai PDF sistem Android berhasil terbuka
+- assertVisible: "Simpan sebagai PDF"

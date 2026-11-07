@@ -1,0 +1,22 @@
+appId: com.example.tabunganku_harian
+---
+# Mengisi Username
+- tapOn: "Username"
+- inputText: "admin"
+
+# Mengisi Password
+- tapOn: "Password"
+- inputText: "admin"
+
+# Sembunyikan keyboard jika perlu
+- hideKeyboard
+
+# Klik Tombol Masuk
+- tapOn: "Masuk"
+
+# Verifikasi Berhasil Masuk Dashboard
+- extendedWaitUntil:
+    visible: "Dashboard Tabungan"
+    timeout: 10000
+
+- assertVisible: "Dashboard Tabungan"
